@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.calculator{
+    background-color: rgba(0, 0, 0, 0.119);
+    width: 380px;
+    border:1px solid black;
+    /* display: flex; */
+   margin: auto;
+   margin-top: 10px;
+   border-radius: 10px;
+   padding: 10px;
+   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+   padding-bottom: 40px;
+
+ 
+}
+.keypad{
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+.display{
+  background-color: rgb(244, 243, 243);
+    width: 90%;
+    height: 80px;
+display: flex;
+justify-content:flex-end;
+align-items:center;
+padding-right: 10px;
+
+   
+    font-size:x-large;
+    text-align: right;
+    font-weight: 600;
+    border: 2px solid rgb(171, 168, 168);
+    border-radius: 6px;
+    margin: 0 auto;
+    
+}

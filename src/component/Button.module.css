@@ -1,0 +1,21 @@
+.button{
+    width: 80px;
+    height: 80px;
+    font-size: large;
+    border: 2px solid silver;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: 800;
+   background-color: rgb(233, 232, 232);
+   border-radius: 5px;
+   display: inline;
+   margin: 4px;
+   box-shadow: 1px 1px 3px;
+    
+}
+
+.button:active{
+    background-color: rgb(181, 181, 181);
+    box-shadow: 2px 2px 5px;
+}
